@@ -1,5 +1,0 @@
-package org.arpodwot.heatmaps.documents.output;
-
-public interface OutputDocumentGenerator {
-	public void writeToFile(double[] highlightData, String originalText, String filePath) throws Exception;
-}
